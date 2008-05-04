@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoanTKCSDL_ver0", "DoanTKCSDL_ver0\DoanTKCSDL_ver0.csproj", "{10E1F00B-E031-4F4D-811F-5B7E717C2EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{C6F22540-645C-4ABD-8877-D0E5D38F03D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaoLayer", "DaoLayer\DaoLayer.csproj", "{804B1B73-37F9-4F60-B024-89FC45A67629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusLayer", "BusLayer\BusLayer.csproj", "{08EDAB13-B705-490D-B2B3-9C7D9199389F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E1F00B-E031-4F4D-811F-5B7E717C2EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E1F00B-E031-4F4D-811F-5B7E717C2EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E1F00B-E031-4F4D-811F-5B7E717C2EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E1F00B-E031-4F4D-811F-5B7E717C2EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F22540-645C-4ABD-8877-D0E5D38F03D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F22540-645C-4ABD-8877-D0E5D38F03D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F22540-645C-4ABD-8877-D0E5D38F03D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F22540-645C-4ABD-8877-D0E5D38F03D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804B1B73-37F9-4F60-B024-89FC45A67629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804B1B73-37F9-4F60-B024-89FC45A67629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804B1B73-37F9-4F60-B024-89FC45A67629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804B1B73-37F9-4F60-B024-89FC45A67629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EDAB13-B705-490D-B2B3-9C7D9199389F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EDAB13-B705-490D-B2B3-9C7D9199389F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EDAB13-B705-490D-B2B3-9C7D9199389F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EDAB13-B705-490D-B2B3-9C7D9199389F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

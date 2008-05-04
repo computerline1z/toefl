@@ -1,0 +1,7 @@
+bin\Debug\DaoLayer.dll
+bin\Debug\DaoLayer.pdb
+bin\Debug\DTO.dll
+bin\Debug\DTO.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DaoLayer.dll
+obj\Debug\DaoLayer.pdb

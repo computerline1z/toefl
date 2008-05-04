@@ -1,0 +1,15 @@
+bin\Debug\DoanTKCSDL_ver0.exe
+bin\Debug\DoanTKCSDL_ver0.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoanTKCSDL_ver0.Properties.Resources.resources
+obj\Debug\DoanTKCSDL_ver0.csproj.GenerateResource.Cache
+obj\Debug\DoanTKCSDL_ver0.exe
+obj\Debug\DoanTKCSDL_ver0.pdb
+obj\Debug\DoanTKCSDL_ver0.Form1.resources
+obj\Debug\DoanTKCSDL_ver0.frmDangNhap.resources
+obj\Debug\DoanTKCSDL_ver0.frmDKTaiKhoan.resources
+obj\Debug\DoanTKCSDL_ver0.frmDKDuThi.resources
+obj\Debug\DoanTKCSDL_ver0.frmXemDiemThi.resources
+obj\Debug\DoanTKCSDL_ver0.frmThongTinChinh.resources
+obj\Debug\DoanTKCSDL_ver0.frmThongKeDiem.resources
+obj\Debug\DoanTKCSDL_ver0.frmThongKeSoLuong.resources

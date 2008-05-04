@@ -1,0 +1,9 @@
+bin\Debug\BusLayer.dll
+bin\Debug\BusLayer.pdb
+bin\Debug\DaoLayer.dll
+bin\Debug\DTO.dll
+bin\Debug\DaoLayer.pdb
+bin\Debug\DTO.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BusLayer.dll
+obj\Debug\BusLayer.pdb
