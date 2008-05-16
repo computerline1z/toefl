@@ -32,6 +32,9 @@
     <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -41,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDangKyChuyenDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangKyChuyenDiem.Designer.cs">
+      <DependentUpon>frmDangKyChuyenDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKyDuThi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmDangKyDuThi.Designer.cs">
+      <DependentUpon>frmDangKyDuThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangKyTaiKhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmDangKyTaiKhoan.Designer.cs">
+      <DependentUpon>frmDangKyTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -53,8 +74,38 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThongKeSoLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmThongKeSoLuong.Designer.cs">
+      <DependentUpon>frmThongKeSoLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTKDiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTKDiem.Designer.cs">
+      <DependentUpon>frmTKDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemBangDiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmXemBangDiem.Designer.cs">
+      <DependentUpon>frmXemBangDiem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDangKyChuyenDiem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDangKyChuyenDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKyDuThi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDangKyDuThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangKyTaiKhoan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDangKyTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmDangNhap.cs</DependentUpon>
@@ -62,6 +113,18 @@
     <EmbeddedResource Include="frmMain.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongKeSoLuong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmThongKeSoLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTKDiem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTKDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemBangDiem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmXemBangDiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -71,6 +134,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +145,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TN_psd0670.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

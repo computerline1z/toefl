@@ -19,25 +19,13 @@ namespace TOEFL
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            frmDangNhap DangNhap = new frmDangNhap();
-            frmDangNhap DangNhap2 = new frmDangNhap();
-
-            pnMain.Controls.Add(DangNhap);
-            pnMain.Controls.Add(DangNhap2);
-            //pnMain.Controls["DangNhap"].Visible = false;
-
+            pnlDKTaiKhoan.Controls.Add(new frmDangKyTaiKhoan());
+            pnlDKDuThi.Controls.Add(new frmDangKyDuThi());
+            pnlXemBangDiem.Controls.Add(new frmXemBangDiem());
+            pnlTKSoLuong.Controls.Add(new frmThongKeSoLuong());
+            pnlTKDiem.Controls.Add(new frmTKDiem());
         }
 
-        private void bDangNhap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            pnMain.Controls["frmDangNhap"].Visible = false;
-        }
-
-        private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            
-        }
-
-       
+      
     }
 }

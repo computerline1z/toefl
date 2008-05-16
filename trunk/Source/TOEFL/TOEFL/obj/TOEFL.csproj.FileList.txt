@@ -7,3 +7,9 @@ obj\Debug\TOEFL.csproj.GenerateResource.Cache
 obj\Debug\TOEFL.exe
 obj\Debug\TOEFL.pdb
 obj\Debug\TOEFL.frmDangNhap.resources
+obj\Debug\TOEFL.frmDangKyDuThi.resources
+obj\Debug\TOEFL.frmDangKyTaiKhoan.resources
+obj\Debug\TOEFL.frmDangKyChuyenDiem.resources
+obj\Debug\TOEFL.frmXemBangDiem.resources
+obj\Debug\TOEFL.frmThongKeSoLuong.resources
+obj\Debug\TOEFL.frmTKDiem.resources
