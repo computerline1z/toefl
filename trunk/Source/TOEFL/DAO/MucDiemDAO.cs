@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAO
 {
-    class MucDiemDAO : AbstractDAO
+    public class MucDiemDAO : AbstractDAO
     {
     }
 }

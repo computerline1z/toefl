@@ -5,7 +5,7 @@ using DAO;
 
 namespace BUS
 {
-    class KetQuaThiBUS
+    public class KetQuaThiBUS
     {
     }
 }

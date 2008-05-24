@@ -29,7 +29,15 @@ namespace DAO
         public static SqlConnection KetNoiCSDL(string strconnect)
         {
             SqlConnection cnn = new SqlConnection(strconnect);
-            cnn.Open();
+            try
+            {
+                cnn.Open();
+            }
+            catch (SqlException)
+            {
+                throw new Exception("Lỗi kết nối server");
+            }
+
             return cnn;
         }
     }
