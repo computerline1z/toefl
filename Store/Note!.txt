@@ -2,4 +2,7 @@
 
 Thêm cột NgayThiGanNhat vào bảng THI_SINH, để biết được ngày thi gần nhất của thí sinh đó, tiện kiểm tra ràng buộc "mỗi lần thi phải cách nhau ít nhất 2 tuần)
 
-Phần đăng kí có nên có thêm cột ghi chú
+Thêm Lệ phí thi và, Tiền phạt
+
+
+

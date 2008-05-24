@@ -5,7 +5,7 @@ using DAO;
 
 namespace BUS
 {
-    class DiaDiemBUS
+    public class DiaDiemBUS
     {
     }
 }

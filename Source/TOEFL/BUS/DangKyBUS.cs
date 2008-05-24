@@ -6,7 +6,7 @@ using DAO;
 
 namespace BUS
 {
-    class DangKyBUS
+    public class DangKyBUS
     {
     }
 }

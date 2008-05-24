@@ -5,7 +5,7 @@ using DAO;
 
 namespace BUS
 {
-    class ChiTietDotThiBUS
+    public class ChiTietDotThiBUS
     {
     }
 }

@@ -5,7 +5,7 @@ using DAO;
 
 namespace BUS
 {
-    class TruongBUS
+    public class TruongBUS
     {
     }
 }

@@ -5,7 +5,7 @@ using DAO;
 
 namespace BUS
 {
-    class DotThiBUS
+    public class DotThiBUS
     {
     }
 }

@@ -1,6 +1,5 @@
 ﻿//Đã cài các index và unique sau lên csdl :
 
-username, password trên bảng ACCOUNT  -> cài index và unique
 
 MaThiSinh của bảng DANG_KY  -> cài index
 

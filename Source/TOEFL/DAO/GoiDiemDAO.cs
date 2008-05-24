@@ -8,7 +8,7 @@ using DTO;
 
 namespace DAO
 {
-    class GoiDiemDAO : AbstractDAO
+    public class GoiDiemDAO : AbstractDAO
     {
     }
 }

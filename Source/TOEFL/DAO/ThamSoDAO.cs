@@ -8,7 +8,7 @@ using DTO;
 
 namespace DAO
 {
-    class ThamSoDAO : AbstractDAO
+    public class ThamSoDAO : AbstractDAO
     {
     }
 }
