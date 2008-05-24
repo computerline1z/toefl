@@ -1,0 +1,5 @@
+﻿Đã xóa bản Account, và thêm vào THI_SINH 2 thuộc tính username và password, 2 thuộc tính này được cài unique index
+
+Thêm cột NgayThiGanNhat vào bảng THI_SINH, để biết được ngày thi gần nhất của thí sinh đó, tiện kiểm tra ràng buộc "mỗi lần thi phải cách nhau ít nhất 2 tuần)
+
+Phần đăng kí có nên có thêm cột ghi chú

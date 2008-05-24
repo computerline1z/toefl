@@ -1,0 +1,13 @@
+﻿//Đã cài các index và unique sau lên csdl :
+
+username, password trên bảng ACCOUNT  -> cài index và unique
+
+MaThiSinh của bảng DANG_KY  -> cài index
+
+MaDangKy của bảng KET_QUA_THI -> cài index
+
+QuocGia, TenDiaDiem của bảng DIA_DIEM -> index và unique
+
+MaDiaDiem của bảng CT_DOT_THI -> cài index
+
+MaChiTietDotThi của bảng DANG_KY -> cài index
