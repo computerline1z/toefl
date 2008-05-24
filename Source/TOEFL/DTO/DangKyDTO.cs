@@ -15,7 +15,7 @@ namespace DTO
         private DateTime _ngayHetHan;
         private decimal _lePhiThi;
         private decimal _tongTienGoiDiem;
-        private decimal _tienPhat;
+        private decimal _soTienPhat;
         private decimal _tongTienThu;
         #endregion
 
@@ -60,10 +60,10 @@ namespace DTO
             get { return _tongTienGoiDiem; }
             set { _tongTienGoiDiem = value; }
         }
-        public decimal TienPhat
+        public decimal SoTienPhat
         {
-            get { return _tienPhat; }
-            set { _tienPhat = value; }
+            get { return _soTienPhat; }
+            set { _soTienPhat = value; }
         }
         public decimal TongTienThu
         {
@@ -82,7 +82,7 @@ namespace DTO
             NgayHetHan = new DateTime();
             LePhiThi = 0;
             TongTienGoiDiem = 0;
-            TienPhat = 0;
+            SoTienPhat = 0;
             TongTienThu = 0;
         }
         #endregion
