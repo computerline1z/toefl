@@ -1,0 +1,14 @@
+create proc Proc_Them_ChuyenBay(
+@TenChuyenBay nvarchar(10), @SBDi nvarchar(10), @SBDen nvarchar(10), @GioDi datetime, @GioDen datetime, @ThoiGianBay datetime, @KmDuongBay float, @HutThuoc tinyint, @DangKhaiThac tinyint
+)
+as
+begin
+	declare @maso nvarchar(10), @MaChuyenBay nvarchar(10)
+	select @maso=max(MaChuyenBay) from ChuyenBay
+	if(@maso is null)
+		set @MaChuyenBay= 'CB0001'
+	else
+	set @MaChuyenBay= 'CB' + right('0000' + cast(((cast(right(@maso, 4) as int)) +1) as nvarchar(10)) ,4 )
+	insert into ChuyenBay(MaChuyenBay, TenChuyenBay, SBDi, SBDen, GioDi, GioDen, ThoiGianBay, KmDuongBay, HutThuoc, DangKhaiThac)
+	values(@MaChuyenBay, @TenChuyenBay, @SBDi, @SBDen, @GioDi, @GioDen, @ThoiGianBay, @KmDuongBay, @HutThuoc, @DangKhaiThac)
+end
