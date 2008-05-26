@@ -104,6 +104,10 @@
       <SubType>Designer</SubType>
       <DependentUpon>frmServer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmXemDiemThi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmXemDiemThi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

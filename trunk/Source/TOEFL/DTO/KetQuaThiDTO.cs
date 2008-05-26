@@ -8,7 +8,7 @@ namespace DTO
     {
         #region "Attributes"
         private int _maKQThi;        
-        private string _maDangKi;        
+        private string _maDangKy;        
         private int _diemNghe;        
         private int _diemNoi;       
         private int _diemDoc;       
@@ -21,10 +21,10 @@ namespace DTO
             get { return _maKQThi; }
             set { _maKQThi = value; }
         }
-        public string MaDangKi
+        public string MaDangKy
         {
-            get { return _maDangKi; }
-            set { _maDangKi = value; }
+            get { return _maDangKy; }
+            set { _maDangKy = value; }
         }
         public int DiemNghe
         {
@@ -56,7 +56,7 @@ namespace DTO
         public KetQuaThiDTO()
         {
             MaKQThi = 0;
-            MaDangKi = "";
+            MaDangKy = "";
             DiemDoc = 0;
             DiemNghe = 0;
             DiemNoi = 0;
